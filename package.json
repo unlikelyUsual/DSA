@@ -1,0 +1,25 @@
+{
+  "name": "dsa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ts" : "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unlikelyUsual/DSA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unlikelyUsual/DSA/issues"
+  },
+  "homepage": "https://github.com/unlikelyUsual/DSA#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "typescript": "^5.1.6"
+  }
+}
