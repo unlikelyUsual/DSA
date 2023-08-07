@@ -1,4 +1,5 @@
 import SelectionSort from "./SelectionSort";
+import { performance, PerformanceObserver } from "perf_hooks";
 
 const unSortedArr = [98, 32, 89, 1, 42, 72, 62, 33, 47, 29];
 
