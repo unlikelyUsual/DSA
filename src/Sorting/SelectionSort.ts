@@ -3,7 +3,7 @@
  * Selection sort
  * It is a simple sort algorithm where left side is sorted and right right is un sorted of array
  * [ sorted items,   unsorted items   ]
- * and index keep moving tell the end of array
+ * and index keep moving till the end of array
  * It is a in place sort so items are exchanged places
  *
  *
@@ -13,15 +13,15 @@
 
 const SelectionSort = (array: number[]): number[] => {
   for (let i = 0; i < array.length; i++) {
-    const toCompare = array[i];
+    let smallest = i;
     for (let j = i; j < array.length; j++) {
-      const current = array[j];
-      if (current < toCompare) {
-        array[j] = toCompare;
-        array[i] = current;
-        break;
+      if (array[j] < array[smallest]) {
+        smallest = j;
       }
     }
+    const temp = array[smallest];
+    array[smallest] = array[i];
+    array[i] = temp;
   }
   return array;
 };
