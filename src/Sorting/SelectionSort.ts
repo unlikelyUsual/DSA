@@ -6,6 +6,9 @@
  * and index keep moving till the end of array
  * It is a in place sort so items are exchanged places
  *
+ * Time complexity
+ * Best case : o(n)
+ * Worst case : o(n^2)
  *
  * @param array
  * @returns array
